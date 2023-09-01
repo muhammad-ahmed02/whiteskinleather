@@ -34,13 +34,13 @@ This project is a landing page for White Skin Leather built using React, TypeScr
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/jadoo-travel-agency.git
+   git clone https://github.com/muhammad-ahmed02/whiteskinleather.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd jadoo-travel-agency
+   cd whiteskinleather
    ```
 
 3. Install the dependencies:

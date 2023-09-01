@@ -41,20 +41,12 @@ export const ServiceTexts = {
     secondText: "We Offer Best Services",
     cards: [
         {
-            firstText: "Calculated Weather",
-            secondText: "Built Wicket longer admire do barton vantity itself do in it."
+            firstText: "Leather Manufacturing",
+            secondText: "Leather manufacturing industry in Pakistan."
         },
         {
-            firstText: "Best Flight",
-            secondText: "engrossed listening. Park gate sell they west hard for the."
-        },
-        {
-            firstText: "Local Events",
-            secondText: "barton vantity itself do in it.Preferred to men it engrossed listening."
-        },
-        {
-            firstText: "Customizition",
-            secondText: "We deliver outsourced aviation services for military customers."
+            firstText: "Safety Gloves",
+            secondText: "Industrials plants for safety glvoes manufacturing."
         }
     ]
 }
