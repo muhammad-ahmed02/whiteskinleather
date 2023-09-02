@@ -4,8 +4,8 @@ import { Image } from "../atoms/Image";
 import Logo from "../../assets/logo1.png";
 import { NavLinks } from "../particles/DataLists";
 import { List } from "../atoms/List";
-import { NavLink } from "react-router-dom";
-import { HashLink } from 'react-router-hash-link';
+// import { NavLink } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import { ArrowCircleRight, CirclesFour } from "@phosphor-icons/react";
 import { Slide } from "react-awesome-reveal";
 
@@ -50,7 +50,10 @@ const NavBar = () => {
           <div className="lg:flex hidden items-center gap-20">
             <ul className="flex items-center justify-center gap-8">
               {NavLinks.map((navlink, index) => (
-                <List className="w-full text-base white-space-nowrap" key={index}>
+                <List
+                  className="w-full text-base white-space-nowrap"
+                  key={index}
+                >
                   <HashLink
                     smooth
                     to={navlink.url}
@@ -128,13 +131,14 @@ const NavBar = () => {
             <ul className="flex flex-col gap-3 pl-2">
               {NavLinks.map((navlink, index) => (
                 <List className="w-full text-base" key={index}>
-                  <NavLink
+                  <HashLink
+                    smooth
                     to={navlink.url}
                     onClick={handleToggle}
                     className={`relative overflow-hidden inline-block before:w-full before:h-0.5 before:bg-color2 before:absolute before:bottom-0 before:-left-full before:rounded-full before:transition-all before:duration-200 before:ease-in hover:before:left-0 `}
                   >
                     {navlink.name}
-                  </NavLink>
+                  </HashLink>
                 </List>
               ))}
             </ul>
