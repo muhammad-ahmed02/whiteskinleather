@@ -4,12 +4,12 @@ export const NavLinks = [
         url: "/#services"
     },
     {
-        name: "Top Products",
+        name: "Products",
         url: "/#top-products"
     },
     {
         name: "Contact",
-        url: "/"
+        url: "/#contact"
     }
 
 ];
@@ -26,7 +26,6 @@ export const NavButtons = [
 
 ];
 
-
 export const HeroTexts = {
     firstText: "BEST LEAATHER AROUND THE WORLD",
     secondText: "Unleash Your Inner Rebel with Our Leather Products.",
@@ -34,7 +33,6 @@ export const HeroTexts = {
     firstButton: "Find out more",
     secondButton: 'Play Demo'
 }
-
 
 export const ServiceTexts = {
     firstText: "SERVICES",
@@ -85,6 +83,58 @@ export const TopProductsTexts = {
             price: "PKR 2k",
             duration: "3 days"
         },
+    ]
+}
+
+export const ProductsTexts = {
+    firstText: "Products",
+    secondText: "All Products",
+    cards: [
+        {
+            title: "Canadian Working Gloves",
+            price: "",
+            duration: "",
+        },
+        {
+            title: "Cow Split Welding Gloves",
+            price: "",
+            duration: "",
+        },
+        {
+            title: "Cow Split Welding Gloves",
+            price: "",
+            duration: "",
+        },
+        {
+            title: "Cow Split Welding Gloves",
+            price: "",
+            duration: "",
+        },
+        {
+            title: "Cow Split Welding Gloves",
+            price: "",
+            duration: "",
+        },
+        {
+            title: "Leather Working Gloves",
+            price: "",
+            duration: "",
+        },
+        {
+            title: "Goatskin Working Gloves",
+            price: "",
+            duration: "",
+        },
+        {
+            title: "Leather Grain Working Gloves",
+            price: "",
+            duration: "",
+        },
+        {
+            title: "Leather Grain Working Gloves",
+            price: "",
+            duration: "",
+        }
     ]
 }
 
@@ -144,9 +194,9 @@ export const TestimonialTexts = {
 }
 
 export const NewsletterTexts = {
-    firstText: "Subscribe to get information, latest news and other interesting offers about Jadoo.",
+    firstText: "Write us an email to contact us",
     placeholderText: "Your email",
-    buttonText: "Subscribe"
+    buttonText: "Click to Write Email"
 }
 
 export const FooterTexts = {
@@ -159,12 +209,12 @@ export const FooterTexts = {
                 url: "/#services"
             },
             {
-                name: "Top Products",
+                name: "Products",
                 url: "/#top-products"
             },
             {
                 name: "Contact",
-                url: "/"
+                url: "/#contact"
             }
         ]
     },

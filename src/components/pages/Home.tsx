@@ -1,6 +1,6 @@
 // import BookingSteps from "../organs/BookingSteps"
 import HeroSection from "../organs/HeroSection"
-// import NewsLetter from "../organs/NewsLetter"
+import NewsLetter from "../organs/NewsLetter"
 // import Partners from "../organs/Partners"
 import Services from "../organs/Services"
 // import Testimonials from "../organs/Testimonials"
@@ -16,7 +16,7 @@ const Home = () => {
             {/* <BookingSteps />
             <Testimonials /> */}
             {/* <Partners /> */}
-            {/* <NewsLetter /> */}
+            <NewsLetter />
         </>
     )
 }
