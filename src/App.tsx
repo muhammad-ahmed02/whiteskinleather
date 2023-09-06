@@ -5,13 +5,16 @@ import "slick-carousel/slick/slick-theme.css";
 
 import { animateScroll } from "react-scroll";
 
-import NavBar from "./components/organs/NavBar"
+import NavBar from "./components/organs/NavBar";
 import Home from "./components/pages/Home";
 import { useEffect } from "react";
 import Footer from "./components/organs/Footer";
+import UnderConstruction from "./components/organs/UnderConstruction";
 
 function App() {
   const directory = useLocation();
+  const MAINTENANCE = false;
+
   useEffect(() => {
     animateScroll.scrollToTop({
       duration: 0,
@@ -20,13 +23,19 @@ function App() {
 
   return (
     <div className="w-full bg-white text-gray-950 font-poppins">
-      <NavBar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-      <Footer />
+      {MAINTENANCE ? (
+        <UnderConstruction />
+      ) : (
+        <>
+          <NavBar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
+          <Footer />
+        </>
+      )}
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
