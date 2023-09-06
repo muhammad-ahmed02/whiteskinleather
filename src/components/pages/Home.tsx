@@ -19,6 +19,10 @@ const Home = () => {
       <CategoryCard data={ProductsTexts.driver_gloves} />
       {/*  Assembly GLOVES */}
       <CategoryCard data={ProductsTexts.assembly_gloves} inverse={true} />
+      {/* CANADIAN RIGGER GLOVES */}
+      <CategoryCard data={ProductsTexts.canadian_rigger_gloves} />
+      {/* IMAPCT GLOVES */}
+      <CategoryCard data={ProductsTexts.impact_gloves} inverse={true} />
 
       {/* <BookingSteps />
             <Testimonials /> */}

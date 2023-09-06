@@ -23,6 +23,28 @@ import assembly6 from "../../assets/assembly_gloves/assembly-gloves_6.jpg";
 import assembly7 from "../../assets/assembly_gloves/assembly-gloves_7.jpg";
 import assembly8 from "../../assets/assembly_gloves/assembly-gloves_8.png";
 
+// CANADIAN RIGGER GLOVES
+import rigger_cover from "../../assets/canadian-rigger-gloves/canadian-cover.jpg";
+import cdpif from "../../assets/canadian-rigger-gloves/cdpif.png";
+import cr0 from "../../assets/canadian-rigger-gloves/cr_0.png";
+import cr1 from "../../assets/canadian-rigger-gloves/cr_1.png";
+import cr2 from "../../assets/canadian-rigger-gloves/cr_2.png";
+import cr3 from "../../assets/canadian-rigger-gloves/cr_3.png";
+import cr4 from "../../assets/canadian-rigger-gloves/cr_4.png";
+import cr5 from "../../assets/canadian-rigger-gloves/cr_5.png";
+import cr6 from "../../assets/canadian-rigger-gloves/cr_6.png";
+import cr7 from "../../assets/canadian-rigger-gloves/cr_7.png";
+import cr8 from "../../assets/canadian-rigger-gloves/cr_8.png";
+import gcr from "../../assets/canadian-rigger-gloves/gcr.png";
+import gcr0 from "../../assets/canadian-rigger-gloves/gcr_1.png";
+
+// IMPACT GLOVES
+import impact_cover from "../../assets/covers/impact.png";
+import impact0 from "../../assets/impact-gloves/impact-gloves0.jpg";
+import impact1 from "../../assets/impact-gloves/impact-gloves1.jpg";
+import impact2 from "../../assets/impact-gloves/impact-gloves2.jpg";
+import impact3 from "../../assets/impact-gloves/impact-gloves3.jpg";
+
 export const NavLinks = [
   {
     name: "Services",
@@ -51,7 +73,7 @@ export const NavButtons = [
 
 export const HeroTexts = {
   firstText: "BEST LEAATHER AROUND THE WORLD",
-  secondText: "Unleash Your Inner Rebel with Our Leather Products.",
+  secondText: "Elevate Your Craft with WSL Working Gloves.",
   thirdText:
     "Leather safety products are essential items designed to provide protection and durability in various industrial and personal safety applications.",
   firstButton: "Find out more",
@@ -116,35 +138,35 @@ export const ProductsTexts = {
     cover: driver_cover,
     cards: [
       {
-        title: "DG",
+        title: "",
         image: dg,
       },
       {
-        title: "DG",
+        title: "",
         image: dg2,
       },
       {
-        title: "DG-DP",
+        title: "",
         image: dgdp,
       },
       {
-        title: "Goat Skin",
+        title: "",
         image: goatskin1,
       },
       {
-        title: "Goat Skin",
+        title: "",
         image: goatskin2,
       },
       {
-        title: "Goat Skin",
+        title: "",
         image: goatskin3,
       },
       {
-        title: "Goat Skin",
+        title: "",
         image: goatskin4,
       },
       {
-        title: "Goat Skin",
+        title: "",
         image: goatskin5,
       },
     ],
@@ -154,48 +176,124 @@ export const ProductsTexts = {
     cover: assembly_cover,
     cards: [
       {
-        title: "AG",
+        title: "",
         image: ag,
       },
       {
-        title: "AG",
+        title: "",
         image: ag2,
       },
       {
-        title: "Assembly Glove",
+        title: "",
         image: assembly0,
       },
       {
-        title: "Assembly Glove",
+        title: "",
         image: assembly1,
       },
       {
-        title: "Assembly Glove",
+        title: "",
         image: assembly2,
       },
       {
-        title: "Assembly Glove",
+        title: "",
         image: assembly3,
       },
       {
-        title: "Assembly Glove",
+        title: "",
         image: assembly4,
       },
       {
-        title: "Assembly Glove",
+        title: "",
         image: assembly5,
       },
       {
-        title: "Assembly Glove",
+        title: "",
         image: assembly6,
       },
       {
-        title: "Assembly Glove",
+        title: "",
         image: assembly7,
       },
       {
-        title: "Assembly Glove",
+        title: "",
         image: assembly8,
+      },
+    ],
+  },
+  canadian_rigger_gloves: {
+    title: "Canadian Rigger Gloves",
+    cover: rigger_cover,
+    cards: [
+      {
+        title: "",
+        image: cdpif,
+      },
+      {
+        title: "",
+        image: cr0,
+      },
+      {
+        title: "",
+        image: cr1,
+      },
+      {
+        title: "",
+        image: cr2,
+      },
+      {
+        title: "",
+        image: cr3,
+      },
+      {
+        title: "",
+        image: cr4,
+      },
+      {
+        title: "",
+        image: cr5,
+      },
+      {
+        title: "",
+        image: cr6,
+      },
+      {
+        title: "",
+        image: cr7,
+      },
+      {
+        title: "",
+        image: cr8,
+      },
+      {
+        title: "",
+        image: gcr,
+      },
+      {
+        title: "",
+        image: gcr0,
+      },
+    ],
+  },
+  impact_gloves: {
+    title: "Impact Gloves",
+    cover: impact_cover,
+    cards: [
+      {
+        title: "",
+        image: impact0,
+      },
+      {
+        title: "",
+        image: impact1,
+      },
+      {
+        title: "",
+        image: impact2,
+      },
+      {
+        title: "",
+        image: impact3,
       },
     ],
   },
@@ -261,7 +359,7 @@ export const NewsletterTexts = {
 };
 
 export const FooterTexts = {
-  underLogoText: "Unleash Your Inner Rebel with Our Leather Products.",
+  underLogoText: "Elevate Your Craft with WSL Working Gloves.",
   quickLinks: {
     caption: "Quick Links",
     links: [
