@@ -10,7 +10,7 @@ interface DataCard {
 type CategoryCardProps = {
   data: {
     title: string;
-    cover: string;
+    cover?: string;
     cards: Array<DataCard>;
   };
   inverse?: boolean;
@@ -20,16 +20,18 @@ const CategoryCard = ({ data, inverse }: CategoryCardProps) => {
   const flexInverse = inverse || false;
   return (
     <div
-      className={`flex justify-start align-center mt-20 ${
+      className={`flex justify-start items-center mt-20 ${
         flexInverse
           ? "md:flex-row-reverse flex-col-reverse"
           : "md:flex-row flex-col"
       }`}
     >
-      <div className="md:w-[40%] md:block hidden">
-        <Image className="" image={data.cover} alt="Logo" />
-      </div>
-      <div className="md:w-[60%] w-full md:px-10 px-3">
+      {data.cover && (
+        <div className={`md:w-[40%] md:block hidden`}>
+          <Image className="" image={data.cover} alt="Logo" />
+        </div>
+      )}
+      <div className={`${data.cover && "md:w-[60%]"}  w-full md:px-10 px-3`}>
         <Text
           as="h2"
           className="md:text-4xl text-2xl font-medium capitalize text-color3 m-4 text-center border-b"
@@ -38,7 +40,10 @@ const CategoryCard = ({ data, inverse }: CategoryCardProps) => {
         </Text>
         <div className="md:w-full h-auto mt-4 flex justify-center items-center flex-wrap">
           {data.cards.map((card, index) => (
-            <div key={index} className="md:px-2 px-3 my-4 lg:w-[25%] md:w-[30%] w-[50%]">
+            <div
+              key={index}
+              className="md:px-2 px-3 my-4 lg:w-[25%] md:w-[30%] w-[50%]"
+            >
               <Card
                 cardClass="overflow-hidden shadow-md rounded-lg cursor-pointer group"
                 imageAlt={card.title}

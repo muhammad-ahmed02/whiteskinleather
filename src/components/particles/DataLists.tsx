@@ -45,6 +45,41 @@ import impact1 from "../../assets/impact-gloves/impact-gloves1.jpg";
 import impact2 from "../../assets/impact-gloves/impact-gloves2.jpg";
 import impact3 from "../../assets/impact-gloves/impact-gloves3.jpg";
 
+// WELDING GLOVES
+import welding_cover from "../../assets/covers/welding-cover.jpg";
+import welding_dp0 from "../../assets/welding-gloves/dp_0.png";
+import welding_dp1 from "../../assets/welding-gloves/dp_1.png";
+import welding_dp2 from "../../assets/welding-gloves/dp_2.png";
+import welding_dp3 from "../../assets/welding-gloves/dp_3.png";
+import welding_dp4 from "../../assets/welding-gloves/dp_4.png";
+import welding_dpf_0 from "../../assets/welding-gloves/dpf_0.png";
+import welding_dpf_1 from "../../assets/welding-gloves/dpf_1.png";
+import welding_dpgw from "../../assets/welding-gloves/dpgw.png";
+import welding_dpit from "../../assets/welding-gloves/dpit.png";
+import welding_nwg_0 from "../../assets/welding-gloves/nwg_0.png";
+import welding_nwg_1 from "../../assets/welding-gloves/nwg_1.png";
+import welding_nwg_2 from "../../assets/welding-gloves/nwg_2.png";
+
+// WELDING ACCESSORIES
+import weld_accessories_cover from "../../assets/welding-accessories/appron.png";
+import weld_swg_0 from "../../assets/welding-accessories/swg_0.png";
+import weld_swg_1 from "../../assets/welding-accessories/swg_1.png";
+import weld_swg_2 from "../../assets/welding-accessories/swg_2.png";
+import weld_swg_3 from "../../assets/welding-accessories/swg_3.png";
+import weld_swg_4 from "../../assets/welding-accessories/swg_4.png";
+import weld_swg_5 from "../../assets/welding-accessories/swg_5.png";
+import weld_swg_6 from "../../assets/welding-accessories/swg_6.png";
+import weld_swg_7 from "../../assets/welding-accessories/swg_7.png";
+import weld_swg_8 from "../../assets/welding-accessories/swg_8.png";
+import weld_swg_9 from "../../assets/welding-accessories/swg_9.png";
+import weld_swg_10 from "../../assets/welding-accessories/swg_10.png";
+import welding_hood from "../../assets/welding-accessories/welding-hood.jpg";
+
+// TIG Gloves
+import tig_0 from "../../assets/tig-gloves/tig_0.webp";
+import tig_1 from "../../assets/tig-gloves/tig_1.jpg";
+import tig_2 from "../../assets/tig-gloves/tig_2.png";
+
 export const NavLinks = [
   {
     name: "Services",
@@ -294,6 +329,131 @@ export const ProductsTexts = {
       {
         title: "",
         image: impact3,
+      },
+    ],
+  },
+  welding_gloves: {
+    title: "Welding Gloves",
+    cover: welding_cover,
+    cards: [
+      {
+        title: "",
+        image: welding_dp0,
+      },
+      {
+        title: "",
+        image: welding_dp1,
+      },
+      {
+        title: "",
+        image: welding_dp2,
+      },
+      {
+        title: "",
+        image: welding_dp3,
+      },
+      {
+        title: "",
+        image: welding_dp4,
+      },
+      {
+        title: "",
+        image: welding_dpf_0,
+      },
+      {
+        title: "",
+        image: welding_dpf_1,
+      },
+      {
+        title: "",
+        image: welding_dpgw,
+      },
+      {
+        title: "",
+        image: welding_dpit,
+      },
+      {
+        title: "",
+        image: welding_nwg_0,
+      },
+      {
+        title: "",
+        image: welding_nwg_1,
+      },
+      {
+        title: "",
+        image: welding_nwg_2,
+      },
+    ],
+  },
+  welding_accessories: {
+    title: "Welding Accessories",
+    cover: weld_accessories_cover,
+    cards: [
+      {
+        title: "",
+        image: welding_hood,
+      },
+      {
+        title: "",
+        image: weld_swg_0,
+      },
+      {
+        title: "",
+        image: weld_swg_1,
+      },
+      {
+        title: "",
+        image: weld_swg_2,
+      },
+      {
+        title: "",
+        image: weld_swg_3,
+      },
+      {
+        title: "",
+        image: weld_swg_4,
+      },
+      {
+        title: "",
+        image: weld_swg_5,
+      },
+      {
+        title: "",
+        image: weld_swg_6,
+      },
+      {
+        title: "",
+        image: weld_swg_7,
+      },
+      {
+        title: "",
+        image: weld_swg_8,
+      },
+      {
+        title: "",
+        image: weld_swg_9,
+      },
+      {
+        title: "",
+        image: weld_swg_10,
+      },
+    ],
+  },
+  tig_gloves: {
+    title: "TIG Gloves",
+    cards: [
+      {
+        title: "",
+        image: tig_0,
+      },
+      {
+        title: "",
+        image: tig_1,
+      },
+      {
+        title: "",
+        image: tig_2,
       },
     ],
   },
