@@ -1,5 +1,13 @@
+// TOP PRODUCTS
+import top1 from "../../assets/welding-gloves/nwg.jpg";
+import top2 from "../../assets/top2.jpg";
+import top3 from "../../assets/top3.png";
+import top4 from "../../assets/top4.png";
+import top5 from "../../assets/top5.png";
+import top6 from "../../assets/top6.png";
+
 // DRIVER GLOVES
-import driver_cover from "../../assets/gloves/driver-gloves.webp";
+import driver_cover from "../../assets/driver_gloves/driver-gloves.webp";
 import dg from "../../assets/driver_gloves/dg.jpg";
 import dg2 from "../../assets/driver_gloves/dg2.webp";
 import dgdp from "../../assets/driver_gloves/dgdp.jpg";
@@ -10,7 +18,7 @@ import goatskin4 from "../../assets/driver_gloves/Goatskin-Working-Gloves_4.png"
 import goatskin5 from "../../assets/driver_gloves/Goatskin-Working-Gloves_5.png";
 
 // ASSEMBLY GLOVES
-import assembly_cover from "../../assets/gloves/assembly.jpg";
+import assembly_cover from "../../assets/covers/assembly-cover.jpg";
 import ag from "../../assets/assembly_gloves/ag.jpg";
 import ag2 from "../../assets/assembly_gloves/ag2.jpg";
 import assembly0 from "../../assets/assembly_gloves/assembly-gloves_0.jpg";
@@ -135,34 +143,28 @@ export const TopProductsTexts = {
   secondText: "Top Products",
   cards: [
     {
-      title: "Leather Gloves",
-      price: "PKR 5.4k",
-      duration: "10 days",
+      title: "Leather Welding Gloves",
+      image: top1,
     },
     {
       title: "Leather Appron",
-      price: "PKR 4k",
-      duration: "12 days",
-    },
-    {
-      title: "Leather Welding Jacket",
-      price: "PKR 15k",
-      duration: "26 days",
+      image: top2,
     },
     {
       title: "Cow Split Leather Gloves",
-      price: "PKR 4k",
-      duration: "8 days",
+      image: top4,
+    },
+    {
+      title: "Leather Welding Jacket",
+      image: top3,
     },
     {
       title: "Welding Safety Kit",
-      price: "PKR 39k",
-      duration: "14 days",
+      image: top5,
     },
     {
       title: "Leather Shoe Cover",
-      price: "PKR 2k",
-      duration: "3 days",
+      image: top6,
     },
   ],
 };
@@ -182,7 +184,7 @@ export const ProductsTexts = {
       },
       {
         title: "",
-        image: dgdp,
+        image: goatskin4,
       },
       {
         title: "",
@@ -198,7 +200,7 @@ export const ProductsTexts = {
       },
       {
         title: "",
-        image: goatskin4,
+        image: dgdp,
       },
       {
         title: "",
@@ -220,23 +222,7 @@ export const ProductsTexts = {
       },
       {
         title: "",
-        image: assembly0,
-      },
-      {
-        title: "",
-        image: assembly1,
-      },
-      {
-        title: "",
-        image: assembly2,
-      },
-      {
-        title: "",
         image: assembly3,
-      },
-      {
-        title: "",
-        image: assembly4,
       },
       {
         title: "",
@@ -244,11 +230,27 @@ export const ProductsTexts = {
       },
       {
         title: "",
+        image: assembly7,
+      },
+      {
+        title: "",
+        image: assembly0,
+      },
+      {
+        title: "",
+        image: assembly4,
+      },
+      {
+        title: "",
+        image: assembly1,
+      },
+      {
+        title: "",
         image: assembly6,
       },
       {
         title: "",
-        image: assembly7,
+        image: assembly2,
       },
       {
         title: "",
@@ -392,7 +394,7 @@ export const ProductsTexts = {
     cards: [
       {
         title: "",
-        image: welding_hood,
+        image: weld_swg_9,
       },
       {
         title: "",
@@ -420,7 +422,7 @@ export const ProductsTexts = {
       },
       {
         title: "",
-        image: weld_swg_6,
+        image: welding_hood,
       },
       {
         title: "",
@@ -432,7 +434,7 @@ export const ProductsTexts = {
       },
       {
         title: "",
-        image: weld_swg_9,
+        image: weld_swg_6,
       },
       {
         title: "",

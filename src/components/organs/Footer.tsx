@@ -4,7 +4,7 @@ import { Text } from "../atoms/Text"
 import { FooterTexts } from "../particles/DataLists"
 import { List } from "../atoms/List"
 import { Link } from "react-router-dom"
-import { FacebookLogo, InstagramLogo, TwitterLogo } from "@phosphor-icons/react"
+import { FacebookLogo, InstagramLogo } from "@phosphor-icons/react"
 // import app from "../../assets/appdownload.png"
 
 
@@ -12,7 +12,7 @@ const Footer = () => {
     const date = new Date;
     return (
         <footer className="w-full flex flex-col bg-white">
-            <section className="w-full h-auto grid lg:grid-cols-4 md:grid-cols-3 lg:px-20 md:px-12 px-6 py-16 gap-7 md:gap-4 lg:gap-0">
+            <section className="w-full h-auto grid lg:grid-cols-3 md:grid-cols-3 lg:px-20 md:px-12 px-6 py-16 gap-7 md:gap-4 lg:gap-0">
                 <div className="flex flex-col items-start gap-4">
                     <Image className="w-28" image={logo} alt="Logo" as="a" href="/" />
                     <Text className="text-sm text-color4" as="p">
@@ -50,7 +50,7 @@ const Footer = () => {
                     </ul>
                 </div> */}
 
-                <div className="flex flex-col lg:items-center gap-4 md:mt-8">
+                {/* <div className="flex flex-col lg:items-center gap-4 md:mt-8">
                     <Text className="text-xl text-color3" as="h2">
                         {FooterTexts.more.caption}
                     </Text>
@@ -63,25 +63,25 @@ const Footer = () => {
                             ))
                         }
                     </ul>
-                </div>
+                </div> */}
 
                 <div className="flex flex-col lg:items-center w-full md:mt-8 gap-4">
                     <ul className="w-full flex items-center lg:justify-center gap-4">
                         <List>
-                            <Link to={`/`} className="text-color3 border-[1px] border-color3/50 p-2.5 flex rounded-full transition-all duration-300 ease-in hover:bg-gradient-to-tr from-color1 to-color2 hover:text-white">
+                            <Link to={`https://www.facebook.com/profile.php?id=100091079467768`} target="_blank" className="text-color3 border-[1px] border-color3/50 p-2.5 flex rounded-full transition-all duration-300 ease-in hover:bg-gradient-to-tr from-color1 to-color2 hover:text-white">
                                 <FacebookLogo size={15} color="currentColor" weight="fill" />
                             </Link>
                         </List>
                         <List>
-                            <Link to={`/`} className="text-color3 border-[1px] border-color3/50 p-2.5 flex rounded-full transition-all duration-300 ease-in hover:bg-gradient-to-tr from-color1 to-color2 hover:text-white">
+                            <Link to={`https://www.instagram.com/whiteskinleather/`} target="_blank" className="text-color3 border-[1px] border-color3/50 p-2.5 flex rounded-full transition-all duration-300 ease-in hover:bg-gradient-to-tr from-color1 to-color2 hover:text-white">
                                 <InstagramLogo size={15} color="currentColor" weight="fill" />
                             </Link>
                         </List>
-                        <List>
+                        {/* <List>
                             <Link to={`/`} className="text-color3 border-[1px] border-color3/50 p-2.5 flex rounded-full transition-all duration-300 ease-in hover:bg-gradient-to-tr from-color1 to-color2 hover:text-white">
                                 <TwitterLogo size={15} color="currentColor" weight="fill" />
                             </Link>
-                        </List>
+                        </List> */}
                     </ul>
 
                     {/* <Text as="p" className="text-base font-light text-color4">

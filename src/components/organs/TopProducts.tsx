@@ -1,14 +1,8 @@
-import { useCallback, useRef } from "react";
+import { useRef } from "react";
 import Slider from "react-slick";
 import { CaretLeft, CaretRight } from "@phosphor-icons/react";
 import { TopProductsTexts } from "../particles/DataLists";
 import { Card } from "../molecules/Card";
-import Product1 from "../../assets/gloves/top1.webp";
-import Product2 from "../../assets/gloves/top2.jpg";
-import Product3 from "../../assets/gloves/top3.png";
-import Product4 from "../../assets/gloves/top4.png";
-import Product5 from "../../assets/gloves/top5.png";
-import Product6 from "../../assets/gloves/top6.png";
 
 import { Text } from "../atoms/Text";
 import { Button } from "../atoms/Button";
@@ -67,25 +61,6 @@ const TopProducts = () => {
     ],
   };
 
-  const renderTopProducts = useCallback((element: number) => {
-    switch (element) {
-      case 0:
-        return Product1;
-      case 1:
-        return Product2;
-      case 2:
-        return Product3;
-      case 3:
-        return Product4;
-      case 4:
-        return Product5;
-      case 5:
-        return Product6;
-      default:
-        return "";
-    }
-  }, []);
-
   return (
     <section
       id="top-products"
@@ -131,9 +106,9 @@ const TopProducts = () => {
               <Card
                 cardClass="overflow-hidden shadow-md rounded-lg cursor-pointer group"
                 imageAlt={card.title}
-                imageSrc={renderTopProducts(index)}
+                imageSrc={card.image}
                 imageWrapperClass="w-full h-[250px] overflow-hidden"
-                cover="group-hover:scale-125 transition duration-500 ease"
+                cover="group-hover:scale-125 transition duration-500 ease object-contain"
                 textWrapperClass="flex flex-col gap-4 w-full px-5 py-5"
               >
                 <div className="flex justify-between items-center">

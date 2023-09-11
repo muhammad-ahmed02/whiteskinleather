@@ -55,8 +55,8 @@ const Home = () => {
       <CategoryCard data={ProductsTexts.tig_gloves} />
 
       {/* <BookingSteps />
-            <Testimonials /> */}
-      {/* <Partners /> */}
+          <Testimonials /> 
+          <Partners /> */}
       <NewsLetter />
     </>
   );
