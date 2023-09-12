@@ -111,7 +111,7 @@ const TopProducts = () => {
                 cover="group-hover:scale-125 transition duration-500 ease object-contain"
                 textWrapperClass="flex flex-col gap-4 w-full px-5 py-5"
               >
-                <div className="flex justify-between items-center">
+                <div className="flex justify-center items-center">
                   <Text as="h4" className="text-base font-medium text-color3">
                     {card.title}
                   </Text>

@@ -151,7 +151,7 @@ export const TopProductsTexts = {
       image: top2,
     },
     {
-      title: "Cow Split Leather Gloves",
+      title: "Welding Gloves",
       image: top4,
     },
     {
@@ -175,35 +175,35 @@ export const ProductsTexts = {
     cover: driver_cover,
     cards: [
       {
-        title: "",
+        title: "DG-204",
         image: dg,
       },
       {
-        title: "",
+        title: "DG-205",
         image: dg2,
       },
       {
-        title: "",
+        title: "DG-206",
         image: goatskin4,
       },
       {
-        title: "",
+        title: "DG-207",
         image: goatskin1,
       },
       {
-        title: "",
+        title: "DG-208",
         image: goatskin2,
       },
       {
-        title: "",
+        title: "DG-209",
         image: goatskin3,
       },
       {
-        title: "",
+        title: "DG-210",
         image: dgdp,
       },
       {
-        title: "",
+        title: "DG-211",
         image: goatskin5,
       },
     ],
@@ -213,48 +213,48 @@ export const ProductsTexts = {
     cover: assembly_cover,
     cards: [
       {
-        title: "",
+        title: "AG-300",
         image: ag,
       },
       {
-        title: "",
+        title: "AG-301",
         image: ag2,
       },
       {
-        title: "",
+        title: "AG-302",
         image: assembly3,
       },
       {
-        title: "",
+        title: "AG-303",
         image: assembly5,
       },
       {
-        title: "",
-        image: assembly7,
+        title: "AG-304",
+        image: assembly8,
       },
       {
-        title: "",
+        title: "AG-305",
         image: assembly0,
       },
       {
-        title: "",
+        title: "AG-306",
         image: assembly4,
       },
       {
-        title: "",
+        title: "AG-307",
         image: assembly1,
       },
       {
-        title: "",
+        title: "AG-308",
         image: assembly6,
       },
       {
-        title: "",
+        title: "AG-309",
         image: assembly2,
       },
       {
-        title: "",
-        image: assembly8,
+        title: "AG-310",
+        image: assembly7,
       },
     ],
   },
@@ -263,51 +263,51 @@ export const ProductsTexts = {
     cover: rigger_cover,
     cards: [
       {
-        title: "",
+        title: "CR-704",
         image: cdpif,
       },
       {
-        title: "",
+        title: "CR-705",
         image: cr0,
       },
       {
-        title: "",
+        title: "CR-706",
         image: cr1,
       },
       {
-        title: "",
+        title: "CR-707",
         image: cr2,
       },
       {
-        title: "",
+        title: "CR-708",
         image: cr3,
       },
       {
-        title: "",
+        title: "CR-709",
         image: cr4,
       },
       {
-        title: "",
+        title: "CR-710",
         image: cr5,
       },
       {
-        title: "",
+        title: "CR-711",
         image: cr6,
       },
       {
-        title: "",
+        title: "CR-712",
         image: cr7,
       },
       {
-        title: "",
+        title: "CR-713",
         image: cr8,
       },
       {
-        title: "",
+        title: "CR-714",
         image: gcr,
       },
       {
-        title: "",
+        title: "CR-715",
         image: gcr0,
       },
     ],
@@ -317,19 +317,19 @@ export const ProductsTexts = {
     cover: impact_cover,
     cards: [
       {
-        title: "",
+        title: "IG-104",
         image: impact0,
       },
       {
-        title: "",
+        title: "IG-105",
         image: impact1,
       },
       {
-        title: "",
+        title: "IG-106",
         image: impact2,
       },
       {
-        title: "",
+        title: "IG-107",
         image: impact3,
       },
     ],
@@ -339,51 +339,51 @@ export const ProductsTexts = {
     cover: welding_cover,
     cards: [
       {
-        title: "",
+        title: "WG-801",
         image: welding_dp0,
       },
       {
-        title: "",
+        title: "WG-802",
         image: welding_dp1,
       },
       {
-        title: "",
+        title: "WG-803",
         image: welding_dp2,
       },
       {
-        title: "",
+        title: "WG-804",
         image: welding_dp3,
       },
       {
-        title: "",
+        title: "WG-805",
         image: welding_dp4,
       },
       {
-        title: "",
+        title: "WG-806",
         image: welding_dpf_0,
       },
       {
-        title: "",
+        title: "WG-807",
         image: welding_dpf_1,
       },
       {
-        title: "",
+        title: "WG-808",
         image: welding_dpgw,
       },
       {
-        title: "",
+        title: "WG-809",
         image: welding_dpit,
       },
       {
-        title: "",
+        title: "WG-810",
         image: welding_nwg_0,
       },
       {
-        title: "",
+        title: "WG-811",
         image: welding_nwg_1,
       },
       {
-        title: "",
+        title: "WG-812",
         image: welding_nwg_2,
       },
     ],
@@ -393,51 +393,51 @@ export const ProductsTexts = {
     cover: weld_accessories_cover,
     cards: [
       {
-        title: "",
+        title: "WA-901",
         image: weld_swg_9,
       },
       {
-        title: "",
+        title: "WA-902",
         image: weld_swg_0,
       },
       {
-        title: "",
+        title: "WA-903",
         image: weld_swg_1,
       },
       {
-        title: "",
+        title: "WA-904",
         image: weld_swg_2,
       },
       {
-        title: "",
+        title: "WA-9055",
         image: weld_swg_3,
       },
       {
-        title: "",
+        title: "WA-906",
         image: weld_swg_4,
       },
       {
-        title: "",
+        title: "WA-907",
         image: weld_swg_5,
       },
       {
-        title: "",
+        title: "WA-908",
         image: welding_hood,
       },
       {
-        title: "",
+        title: "WA-909",
         image: weld_swg_7,
       },
       {
-        title: "",
+        title: "WA-910",
         image: weld_swg_8,
       },
       {
-        title: "",
+        title: "WA-911",
         image: weld_swg_6,
       },
       {
-        title: "",
+        title: "WA-912",
         image: weld_swg_10,
       },
     ],
@@ -446,15 +446,15 @@ export const ProductsTexts = {
     title: "TIG Gloves",
     cards: [
       {
-        title: "",
+        title: "TG-601",
         image: tig_0,
       },
       {
-        title: "",
+        title: "TG-602",
         image: tig_1,
       },
       {
-        title: "",
+        title: "TG-603",
         image: tig_2,
       },
     ],
