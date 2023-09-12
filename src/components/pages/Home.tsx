@@ -51,7 +51,7 @@ const Home = () => {
           />
         </>
       )}
-
+      {/* TIG GLOVES */}
       <CategoryCard data={ProductsTexts.tig_gloves} />
 
       {/* <BookingSteps />
