@@ -1,6 +1,5 @@
 // TOP PRODUCTS
 import top from "../../assets/canadian-rigger-gloves/top.png"
-import top1 from "../../assets/welding-gloves/nwg.jpg";
 import top2 from "../../assets/top2.jpg";
 import top3 from "../../assets/top3.png";
 import top4 from "../../assets/top4.png";
