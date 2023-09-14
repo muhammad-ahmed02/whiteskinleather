@@ -1,4 +1,5 @@
 // TOP PRODUCTS
+import top from "../../assets/canadian-rigger-gloves/top.png"
 import top1 from "../../assets/welding-gloves/nwg.jpg";
 import top2 from "../../assets/top2.jpg";
 import top3 from "../../assets/top3.png";
@@ -115,7 +116,7 @@ export const NavButtons = [
 ];
 
 export const HeroTexts = {
-  firstText: "BEST LEAATHER AROUND THE WORLD",
+  firstText: "BEST LEATHER AROUND THE WORLD",
   secondText: "Elevate Your Craft with WSL Working Gloves.",
   thirdText:
     "Leather safety products are essential items designed to provide protection and durability in various industrial and personal safety applications.",
@@ -143,8 +144,8 @@ export const TopProductsTexts = {
   secondText: "Top Products",
   cards: [
     {
-      title: "Leather Welding Gloves",
-      image: top1,
+      title: "Canadian Rigger Gloves",
+      image: top,
     },
     {
       title: "Leather Appron",
