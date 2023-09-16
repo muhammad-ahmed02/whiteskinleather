@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Image } from "../atoms/Image";
 // import { Button } from "../atoms/Button"
-import Logo from "../../assets/logo1.png";
+import Logo from "../../assets/logo.png";
 import { NavLinks } from "../particles/DataLists";
 import { List } from "../atoms/List";
 // import { NavLink } from "react-router-dom";
@@ -39,7 +39,7 @@ const NavBar = () => {
             navBarColor ? "bg-white" : "bg-transparent"
           } lg:px-24 md:px-12 px-8 flex justify-between items-center`}
         >
-          <div className="w-[130px]">
+          <div className="md:w-[100px] w-[80px]">
             <Image
               as="a"
               href="/"

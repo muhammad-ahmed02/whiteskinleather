@@ -1,5 +1,5 @@
 import { Image } from "../atoms/Image";
-import logo from "../../assets/logo1.png";
+import logo from "../../assets/logo.png";
 import { Text } from "../atoms/Text";
 import { FooterTexts } from "../particles/DataLists";
 import { List } from "../atoms/List";
@@ -8,6 +8,7 @@ import {
   FacebookLogo,
   InstagramLogo,
   WhatsappLogo,
+  LinkedinLogo,
 } from "@phosphor-icons/react";
 // import app from "../../assets/appdownload.png"
 
@@ -98,6 +99,15 @@ const Footer = () => {
                 className="text-color3 border-[1px] border-color3/50 p-2.5 flex rounded-full transition-all duration-300 ease-in hover:bg-gradient-to-tr from-color1 to-color2 hover:text-white"
               >
                 <WhatsappLogo size={15} color="currentColor" weight="fill" />
+              </Link>
+            </List>
+            <List>
+              <Link
+                to={`https://www.linkedin.com/in/white-skin-leather-0b7764282/?originalSubdomain=pk`}
+                target="_blank"
+                className="text-color3 border-[1px] border-color3/50 p-2.5 flex rounded-full transition-all duration-300 ease-in hover:bg-gradient-to-tr from-color1 to-color2 hover:text-white"
+              >
+                <LinkedinLogo size={15} color="currentColor" weight="fill" />
               </Link>
             </List>
           </ul>
