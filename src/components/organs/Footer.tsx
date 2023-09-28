@@ -9,7 +9,6 @@ import {
   InstagramLogo,
   WhatsappLogo,
   LinkedinLogo,
-  MapPin,
 } from "@phosphor-icons/react";
 // import app from "../../assets/leather.png"
 
