@@ -9,8 +9,9 @@ import {
   InstagramLogo,
   WhatsappLogo,
   LinkedinLogo,
+  MapPin,
 } from "@phosphor-icons/react";
-// import app from "../../assets/appdownload.png"
+// import app from "../../assets/leather.png"
 
 const Footer = () => {
   const date = new Date();
@@ -112,6 +113,17 @@ const Footer = () => {
             </List>
           </ul>
 
+          <Text as="p" className="text-base font-light text-color4">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.300736735755!2d67.12672647505651!3d24.85357624553349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33b37682423e5%3A0x8ce28945016c8cbf!2sWhite%20Skin%20Leather!5e0!3m2!1sen!2s!4v1695893640374!5m2!1sen!2s"
+              width="300"
+              height="200"
+              style={{border: "0"}}
+              allowFullScreen={false}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </Text>
           {/* <Text as="p" className="text-base font-light text-color4">
                         Discover Our App
                     </Text>
