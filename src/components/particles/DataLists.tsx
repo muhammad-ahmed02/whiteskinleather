@@ -537,6 +537,14 @@ export const FooterTexts = {
         name: "Contact",
         url: "/#contact",
       },
+      {
+        name: "whiteskinleather@gmail.com",
+        url: "mailto:whiteskinleather@gmail.com"
+      },
+      {
+        name: "Plot No. 443+444+445, Sector 7/A Korangi Industrial Area, Karachi.",
+        url: "#"
+      }
     ],
   },
   contacts: {
