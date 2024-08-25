@@ -39,7 +39,7 @@ const NavBar = () => {
             navBarColor ? "bg-white" : "bg-transparent"
           } lg:px-24 md:px-12 px-8 flex justify-between items-center`}
         >
-          <div className="md:w-[100px] w-[80px]">
+          <div className="md:w-[150px] w-[120px]">
             <Image
               as="a"
               href="/"

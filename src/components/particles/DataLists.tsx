@@ -115,8 +115,8 @@ export const NavButtons = [
 ];
 
 export const HeroTexts = {
-  firstText: "BEST LEATHER AROUND THE WORLD",
-  secondText: "Elevate Your Craft with WSL Working Gloves.",
+  firstText: "PROTECT YOUR HANDS",
+  secondText: "Always Wear Your Gloves.",
   thirdText:
     "Leather safety products are essential items designed to provide protection and durability in various industrial and personal safety applications.",
   firstButton: "Find out more",
