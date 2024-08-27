@@ -13,7 +13,7 @@ import UnderConstruction from "./components/organs/UnderConstruction";
 
 function App() {
   const directory = useLocation();
-  const MAINTENANCE = false;
+  const MAINTENANCE = true;
 
   useEffect(() => {
     animateScroll.scrollToTop({
