@@ -1,4 +1,4 @@
-# WhiteSkinLeather Landing Page
+# HandShields Landing Page
 
 This project is a landing page for White Skin Leather built using React, TypeScript, and Vite.
 

@@ -28,7 +28,12 @@ const CategoryCard = ({ data, inverse }: CategoryCardProps) => {
     >
       {data.cover && (
         <div className={`md:w-[40%] md:block hidden`}>
-          <Image className="" image={data.cover} alt="Logo" objectCover="object-contain" />
+          <Image
+            className=""
+            image={data.cover}
+            alt="Logo"
+            objectCover="object-contain"
+          />
         </div>
       )}
       <div className={`${data.cover && "md:w-[60%]"}  w-full md:px-10 px-3`}>

@@ -1,7 +1,7 @@
 // import BookingSteps from "../organs/BookingSteps"
-import { useState } from "react";
+import React, { useState } from "react";
 import { Button } from "../atoms/Button";
-import CategoryCard from "../organs/CategoryCard";
+// import CategoryCard from "../organs/CategoryCard";
 import HeroSection from "../organs/HeroSection";
 import NewsLetter from "../organs/NewsLetter";
 // import Partners from "../organs/Partners"
@@ -10,8 +10,10 @@ import Services from "../organs/Services";
 import TopProducts from "../organs/TopProducts";
 import { ProductsTexts } from "../particles/DataLists";
 
+const CategoryCard = React.lazy(() => import("../organs/CategoryCard"))
+
 const Home = () => {
-  const [loadMore, setLoadMore] = useState(false);
+  const [loadMore, setLoadMore] = useState(true);
 
   return (
     <>
@@ -55,7 +57,7 @@ const Home = () => {
       <CategoryCard data={ProductsTexts.tig_gloves} />
 
       {/* <BookingSteps />
-          <Testimonials /> 
+          <Testimonials />
           <Partners /> */}
       <NewsLetter />
     </>

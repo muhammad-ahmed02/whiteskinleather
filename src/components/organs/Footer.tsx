@@ -8,8 +8,9 @@ import {
   FacebookLogo,
   InstagramLogo,
   WhatsappLogo,
-  LinkedinLogo,
+  // LinkedinLogo,
 } from "@phosphor-icons/react";
+import { HashLink } from "react-router-hash-link";
 // import app from "../../assets/leather.png"
 
 const Footer = () => {
@@ -31,12 +32,13 @@ const Footer = () => {
           <ul className="flex flex-col items-center gap-2">
             {FooterTexts.quickLinks.links.map((link, index) => (
               <List key={index} className="text-sm">
-                <Link
+                <HashLink
+                  smooth
                   to={link.url}
                   className="text-color4 transition-all duration-300 hover:underline"
                 >
                   {link.name}
-                </Link>
+                </HashLink>
               </List>
             ))}
           </ul>
@@ -85,7 +87,7 @@ const Footer = () => {
             </List>
             <List>
               <Link
-                to={`https://www.instagram.com/whiteskinleather/`}
+                to={`https://www.instagram.com/handshield_/`}
                 target="_blank"
                 className="text-color3 border-[1px] border-color3/50 p-2.5 flex rounded-full transition-all duration-300 ease-in hover:bg-gradient-to-tr from-color1 to-color2 hover:text-white"
               >
@@ -101,7 +103,7 @@ const Footer = () => {
                 <WhatsappLogo size={15} color="currentColor" weight="fill" />
               </Link>
             </List>
-            <List>
+            {/* <List>
               <Link
                 to={`https://www.linkedin.com/in/white-skin-leather-0b7764282/?originalSubdomain=pk`}
                 target="_blank"
@@ -109,7 +111,7 @@ const Footer = () => {
               >
                 <LinkedinLogo size={15} color="currentColor" weight="fill" />
               </Link>
-            </List>
+            </List> */}
           </ul>
           {/* <Text as="p" className="text-base font-light text-color4">
                         Discover Our App
@@ -118,14 +120,14 @@ const Footer = () => {
         </div>
         <div className="flex flex-col items-start gap-4">
           <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.300736735755!2d67.12672647505651!3d24.85357624553349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33b37682423e5%3A0x8ce28945016c8cbf!2sWhite%20Skin%20Leather!5e0!3m2!1sen!2s!4v1695893640374!5m2!1sen!2s"
-              width="300"
-              height="300"
-              style={{border: "0"}}
-              allowFullScreen={false}
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.300736735755!2d67.12672647505651!3d24.85357624553349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33b37682423e5%3A0x8ce28945016c8cbf!2sWhite%20Skin%20Leather!5e0!3m2!1sen!2s!4v1695893640374!5m2!1sen!2s"
+            width="300"
+            height="300"
+            style={{ border: "0" }}
+            allowFullScreen={false}
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </section>
       <Text className="text-center bg-color4 text-white text-xs py-6 font-light">
