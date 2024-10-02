@@ -521,7 +521,7 @@ export const NewsletterTexts = {
 };
 
 export const FooterTexts = {
-  underLogoText: "Elevate Your Craft with WSL Working Gloves.",
+  underLogoText: "Elevate Your Craft with HandShield Working Gloves.",
   quickLinks: {
     caption: "Quick Links",
     links: [

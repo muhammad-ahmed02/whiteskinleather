@@ -37,7 +37,7 @@ const NavBar = () => {
         <nav
           className={`md:h-24 h-20 ${
             navBarColor ? "bg-white" : "bg-transparent"
-          } lg:px-24 md:px-12 px-8 flex justify-between items-center`}
+          } lg:px-24 md:px-12 px-8 flex justify-between items-center overflow-hidden`}
         >
           <div className="md:w-[150px] w-[120px]">
             <Image

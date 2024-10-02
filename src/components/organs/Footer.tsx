@@ -8,6 +8,7 @@ import {
   FacebookLogo,
   InstagramLogo,
   WhatsappLogo,
+
   // LinkedinLogo,
 } from "@phosphor-icons/react";
 import { HashLink } from "react-router-hash-link";
@@ -101,6 +102,20 @@ const Footer = () => {
                 className="text-color3 border-[1px] border-color3/50 p-2.5 flex rounded-full transition-all duration-300 ease-in hover:bg-gradient-to-tr from-color1 to-color2 hover:text-white"
               >
                 <WhatsappLogo size={15} color="currentColor" weight="fill" />
+              </Link>
+            </List>
+            <List>
+              <Link
+                to={`https://wa.me/923190442381`}
+                target="_blank"
+                className="text-color3 border-[1px] border-color3/50 p-2.5 flex rounded-full transition-all duration-300 ease-in hover:bg-gradient-to-tr from-color1 to-color2 hover:text-white"
+              >
+                <img
+                  width="15"
+                  height="15"
+                  src="https://img.icons8.com/external-dashed-line-kawalan-studio/24/external-whatsapp-business-social-media-dashed-line-kawalan-studio.png"
+                  alt="external-whatsapp-business-social-media-dashed-line-kawalan-studio"
+                />
               </Link>
             </List>
             {/* <List>
